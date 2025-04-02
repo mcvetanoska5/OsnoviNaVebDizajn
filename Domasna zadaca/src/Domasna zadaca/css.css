@@ -1,0 +1,181 @@
+head, h1 {
+    text-align: center;
+    color: red;
+    font-size: 60px;
+}
+.biografija {
+    background-color: lightblue;
+    height: 850px;
+    width: 70%;
+    float: right;
+}
+.biografija h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.biografija p {
+    color: orange;
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.biografija img {
+    margin-inline: 5px;
+}
+.biografija img:first-of-type {
+    width: 40%;
+    height: 250px;
+    float: right;
+    margin-right: 60px;
+}
+.biografija img:nth-of-type(2) {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.biografija img:last-of-type {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -90px;
+}
+.obrazovanie {
+    background-color: lightyellow;
+}
+.obrazovanie h1 {
+    color: darkred;
+    font-size: 60px;
+    text-align: center;
+}
+.obrazovanie h2 {
+    color: darkblue;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.obrazovanie ul li {
+    color: red;
+    width: 40%;
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.obrazovanie img:first-of-type {
+    width: 30%;
+    height: 200px;
+    margin-left: 750px;
+    margin-top: -100px;
+}
+.obrazovanie img:nth-of-type(2) {
+    width: 30%;
+    height: 200px;
+    margin-left: 750px;
+    margin-top: -100px;
+}
+.obrazovanie img:last-of-type {
+    width: 30%;
+    height: 200px;
+    margin-left: 750px;
+    margin-top: -100px;
+}
+.vestini {
+    background-color: lightyellow;
+}
+.vestini h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.vestini h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.vestini ul li {
+    color: darkred;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.vestini img {
+    margin-inline: 10px;
+}
+.vestini img:first-of-type {
+    width: 30%;
+    height: 200px;
+}
+.vestini img:nth-of-type(2) {
+    width: 30%;
+    height: 200px;
+}
+.vestini img:last-of-type {
+    width: 30%;
+    height: 200px;
+}
+.hobi {
+    background-color: lightblue;
+    height: 650px;
+}
+.hobi h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+.hobi p {
+    color: red;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 350px;
+}
+.hobi img {
+    margin-inline: 10px;
+    margin-top: 60px;
+}
+.hobi img:first-of-type {
+    width: 30%;
+    height: 200px;
+}
+.hobi img:nth-of-type(2) {
+    width: 30%;
+    height: 200px;
+    margin-bottom: -50px;
+}
+.hobi img:last-of-type {
+    width: 30%;
+    height: 200px;
+    margin-bottom: -80px;
+}
+.kontakt {
+    background-color: purple;
+    height: 850px;
+}
+.kontakt h1 {
+    color: yellow;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.kontakt form, label {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+.kontakt input {
+    background-color: lightcyan;
+}
+.kontakt img {
+    width: 20%;
+    height: 200px;
+    margin-top: 30px;
+}

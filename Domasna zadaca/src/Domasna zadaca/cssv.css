@@ -1,0 +1,36 @@
+body {
+    background-color: lightyellow;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+ul li {
+    color: darkred;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    margin-inline: 10px;
+}
+img:first-of-type {
+    width: 30%;
+    height: 200px;
+}
+img:nth-of-type(2) {
+    width: 30%;
+    height: 200px;
+}
+img:last-of-type {
+    width: 30%;
+    height: 200px;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    color: orange;
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+    margin-inline: 5px;
+}
+img:first-of-type {
+    width: 30%;
+    height: 250px;
+    float: right;
+    margin-right: 60px;
+}
+img:nth-of-type(2) {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-left: -60px;
+    margin-top: 50px;
+}
+img:last-of-type {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -90px;
+}

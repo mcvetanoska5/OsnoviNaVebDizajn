@@ -1,0 +1,21 @@
+body {
+    background-color: purple;
+}
+h1 {
+    color: yellow;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+form, label {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+input {
+    background-color: lightcyan;
+}
+img {
+    width: 20%;
+    height: 200px;
+}
