@@ -1,0 +1,155 @@
+body {
+    width: 150%;
+    height: 100%
+}
+.header {
+    display: flex;
+    color: black;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-family: Arial,sans-serif;
+}
+.header .left {
+    float:left;
+    width: 50%;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+body > div > div > span {
+    color: lightgreen;
+}
+body > div > ul {
+    float: right;
+    width: 50%;
+    margin-left: 150px;
+    padding-left: 170px;
+}
+body > div > ul > li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: darkblue;
+    padding: 5px 15px;
+}
+body > div > ul > li:not(li:nth-child(3)) {
+    margin-right: 30px;
+}
+body > div > ul > li > a {
+    text-decoration: none;
+    color: darkblue;
+}
+body > div > ul > li:hover,body > div > ul > li > a:hover {
+    background-color: darkblue;
+    border-radius: 5px;
+    color: white;
+}
+.main1 {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 30px;
+    text-align: center;
+}
+table {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30%;
+}
+.green {
+    background-color: lightgreen;
+    height: 1000px;
+    text-align: center;
+    font-size: 30px;
+}
+.gray:not(.sumbit) {
+    background-color: #efeeee;
+    width: 95%;
+    display: flex;
+    position: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 65%;
+}
+body > div.green > div > div.leftf {
+    width: 45%;
+}
+body > div.green > div > div.rightf {
+    width: 45%;
+}
+input,select,textarea {
+    width: 95%;
+    height: 8%;
+    border: 1px solid darkgrey;
+}
+body > div.green > div > div.leftf > form {
+    font-size: 25px;
+    margin-left: 0;
+}
+body > div.green > div > div.rightf > form {
+    font-size: 25px;
+}
+body > div.green > div > div.leftf > form > span {
+    font-size: 30px;
+}
+body > div.green > div > div.leftf > form > span:nth-child(1) {
+    margin-left: -810px;
+}
+body > div.green > div > div.leftf > form > span:nth-child(6) {
+    margin-left: -800px;
+}
+body > div.green > div > div.leftf > form > span:nth-child(11) {
+    margin-left: -820px;
+}
+#fname,body > div.green > div > div.leftf > form > input[type=date]:nth-child(8),#country {
+    height: 55%;
+}
+.sumbit {
+    background-color: #04aa6d;
+    border-color: #7ddf96;
+    color: white;
+    display: inline;
+    border-radius: 3px;
+    margin-left: -900px;
+    margin-top: 15px;
+}
+body > div.green > div > div.rightf > span:nth-child(1) {
+    margin-left: 810px;
+}
+body > div.green > div > div.rightf > span:nth-child(6) {
+    margin-left: 850px;
+}
+body > div.green > div > div.leftf > form > div {
+    margin-left: 10px;
+}
+.green2 {
+    background-color: lightgreen;
+    height: 50%;
+}
+.vikipedija {
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}
+.mapa {
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+}
+.fram {
+    height: 1000px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+body > div.green2 > h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+}

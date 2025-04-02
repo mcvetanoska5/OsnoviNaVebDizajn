@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vezba2</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<hr style="border: 1px solid gray">
+<div class="header">
+    <div class="left">
+        Finki<span>Page</span>
+    </div>
+    <ul class="right">
+        <li><a href="home.html">Home</a></li>
+        <li style="background-color: darkblue" style="border-radius: 5px"><a style="color: white" href="contact.html">Contact</a></li>
+        <li><a href="info.html">Info</a></li>
+    </ul>
+</div>
+<div class="green">
+    <br>
+    <h2>Contact Form</h2>
+    <div class="gray">
+        <div style="padding-left: 20px; display:inline-block" class="leftf">
+            <form>
+                <span>First name</span>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder="Your name...">
+                <br>
+                <br>
+               <span>Date of birth</span>  
+               <br>
+                <input placeholder="dd----- yyyy" style="height: 36px" type="date">
+                <br>
+                <br>
+                <span>Country</span>  
+                <br>
+                <select name="countryCode" style="height: 36px" id="country">
+                    <option data-countrycode="GB" value="44" selected="">Macedonia</option>
+                    <option data-countrycode="US" value="1">USA</option>
+                </select>
+                <br>
+                <br>
+                <div><span>CV</span><input style="border: none;" type="file"></div>
+            </form>
+        </div>
+        <div style="pading-left: 20px; display:inline-block" class="leftf">
+        <form>
+          <span>Last Name</span>   
+          <br>
+            <input placeholder="Your last name.." type="text">
+            <br>
+            <br>
+           <span>Subject</span> 
+           <br>
+            <textarea placeholder="Write something.." style=" height: 200px"></textarea>
+            <br>
+            <br>
+            <input class="sumbit" type="submit">
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
